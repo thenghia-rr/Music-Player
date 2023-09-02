@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/img/music-player-favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Music Player</title>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <h1 class="heading">Music Player</h1>
+        <div class="player">
+            <div class="image" >
+                <div class="image-thumb" 
+                    style="background-image: url('https://i.pinimg.com/564x/a8/88/e8/a888e84fd0ee05e55c667c64bc925df9.jpg');">
+                </div>
+            </div>
+                
+           <div class="content">
+                <header>
+                    <h3 class="list-music--icon">
+                        <span>List music</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </h3>
+                    <i class="fa-solid fa-music icon-playlist"></i>
+                </header>
+                <h1 class="name-music">Naveda</h1>
+                <p class="author">Vicetone</p>
+    
+                <input type="range" class="input-range" value="0" step="1" min="0" max="100">
+                <div class="time-range">
+                    <span class="time-current">00.00</span>
+                    <span class="time-end">00.00</span>
+                </div>
+                <div class="options">
+                    <div class="heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <div class="prev">
+                        <i class="fa-solid fa-backward-step"></i>
+                    </div>
+                    <div class="btn-toggle-play">
+                        <i class="fa-solid fa-pause icon-pause"></i>
+                        <i class="fa-solid fa-play icon-play"></i>
+                    </div>
+                    <div class="next">
+                        <i class="fa-solid fa-forward-step"></i>
+                    </div>
+                    <div class="mute">
+                        <i class="fa-solid fa-volume-xmark icon-mute"></i>
+                        <i class="fa-solid fa-volume-high icon-not-mute"></i>
+                    </div>
+                </div>
+                <div class="edit-volume">
+                    <div class="volume-off">
+                        <i class="fa-solid fa-volume-off"></i>
+                    </div>
+                    <input type="range" class="range-volume" value="100" step="1" min="0" max="100">
+                    <div class="volume-high">
+                        <i class="fa-solid fa-volume-high"></i>
+                    </div>
+                </div>
+            </div>
+            <audio id="audio" src=""></audio>
+    
+           
+        </div>
+        <div class="playlist hide">
+            
+        </div>
+    </div>
+
+    <div class="toast-container">
+       <!-- <div class="toast-content">
+           <strong>
+                <h1>Success!</h1>
+                <span class="icon-close">
+                    <i class="fa-solid fa-xmark"></i>
+                </span>
+            </strong>
+            <p>Đã thêm vào bài hát vào danh sách yêu thích</p>
+       </div> -->
+    </div>
+   
+
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
