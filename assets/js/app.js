@@ -267,7 +267,7 @@ const app = {
                                     <i class="fa-solid fa-xmark"></i>
                                 </span>
                             </strong>
-                            <p>Đã thêm vào bài hát <span>${_this.currentSong.name} </span> vào danh sách yêu thích</p>
+                            <p>Đã thêm bài hát <span>${_this.currentSong.name} </span> vào danh sách yêu thích</p>
                     `
                     toastContainer.appendChild(toastContent)
 
