@@ -95,7 +95,12 @@ const app = {
             path: './assets/music/GiaNhuAnhLaNguoiVoTam.mp3',
             author: 'Mum Remix'
         },
-        
+        {
+            name: 'Tận Cùng Nỗi Nhớ',
+            image: './assets/img/tancungnoinho.jpg',
+            path: './assets/music/tancungnoinho.mp3',
+            author: 'Will...'
+        },
         
     ],
     handleEvent() {
