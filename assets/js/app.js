@@ -36,9 +36,27 @@ const app = {
     currentIndex: 0,
     songs : [
         {
+            name: '1 Cú Lừa remix',
+            image: './assets/img/1culua_remix.jpg',
+            path: './assets/music/1culua_remix.mp3',
+            author: 'Huy PT'
+        },
+        {
+            name: 'I Need Your Love Tonight Remix',
+            image: './assets/img/I_Need_Your_Love_Tonight_Remix.jpg',
+            path: './assets/music/I_Need_Your_Love_Tonight_Remix.mp3',
+            author: 'Thai Hoang'
+        },
+        {
+            name: 'Ôm Sầu Remix',
+            image: './assets/img/omsauremix.jpg',
+            path: './assets/music/omsauremix.mp3',
+            author: 'NB3 Hoài Bảo'
+        },
+        {
             name: 'You Never Know',
             image: './assets/img/youNeverKnow.jpg',
-            path: './assets/music/youNeverKnow.mp3',
+            path: './assets/music/youNeverKnowHuy PT.mp3',
             author: 'Blackpink'
         },
         {
