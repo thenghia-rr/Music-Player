@@ -56,7 +56,7 @@ const app = {
         {
             name: 'You Never Know',
             image: './assets/img/youNeverKnow.jpg',
-            path: './assets/music/youNeverKnowHuy PT.mp3',
+            path: './assets/music/youNeverKnow.mp3',
             author: 'Blackpink'
         },
         {
