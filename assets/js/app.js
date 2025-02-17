@@ -42,6 +42,12 @@ const app = {
             author: 'Huy PT'
         },
         {
+            name: 'Để Em Lương Thiện - Praha Vol 6 ( Bản Vang )',
+            image: './assets/img/deemluongthien_vang80.jpg',
+            path: './assets/music/deemluongthien_vang80.mp3',
+            author: 'Tran Khanh Phuong'
+        },
+        {
             name: 'I Need Your Love Tonight Remix',
             image: './assets/img/I_Need_Your_Love_Tonight_Remix.jpg',
             path: './assets/music/I_Need_Your_Love_Tonight_Remix.mp3',
